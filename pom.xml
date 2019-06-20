@@ -65,7 +65,12 @@
 			<version>2.9.2</version>
 		</dependency>
 	</dependencies>
-
+<distributionManagement>
+  <snapshotRepository>
+    <id>nexus</id>
+    <url>http://3.17.132.105:8081/nexus/content/repositories/maven/</url>
+  </snapshotRepository>
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
